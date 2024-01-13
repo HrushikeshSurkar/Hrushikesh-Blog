@@ -1,4 +1,8 @@
-# folder structure
+# Project Overview
+
+This repository contains the source code for a web application, organized with a structured folder layout for clarity and maintainability.
+
+## Folder Structure
 
 ```
 13-01-2023 "5.12pm"
@@ -41,3 +45,28 @@
 |-- package.json
 |-- README.md
 ```
+
+## Project Structure
+
+- **`public/`**: Contains static assets such as HTML files (`index.html`) and a favicon (`favicon.ico`).
+- **`src/`**: Main source code directory.
+  - **`assets/`**: Holds images and styles.
+    - **`images/`**: Image assets.
+    - **`styles/`**: CSS stylesheets.
+      - `global.css`: Global styles.
+      - `header.css`: Styles for the header component.
+      - `sidebar.css`: Styles for the sidebar component.
+      - `topnav.css`: Styles for the top navigation component.
+  - **`components/`**: Reusable React components.
+    - **`common/`**: Common components like Header, Sidebar, and TopNav.
+    - **`posts/`**: Components related to displaying and managing posts.
+  - **`layouts/`**: Components defining the overall layout structure of the application.
+  - **`pages/`**: React components representing different pages of the application.
+  - **`routes/`**: Components defining navigation paths and routes.
+  - **`services/`**: Contains utility functions and API-related logic.
+    - `api.js`: API-related functionality.
+  - **`utils/`**: General utility functions.
+    - `formatDate.js`: Utility for formatting dates.
+  - `App.js` and `index.js`: Entry points for the application.
+- **`.gitignore`**: Specifies files and directories to be ignored by Git.
+- **`package.json`**: Configuration file for Node.js projects.
