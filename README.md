@@ -1,6 +1,6 @@
 # folder structure
 
-'''
+```
 13-01-2023 "5.12pm"
 |-- public/
 | |-- index.html
@@ -40,4 +40,4 @@
 |-- .gitignore
 |-- package.json
 |-- README.md
-'''
+```
