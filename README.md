@@ -76,5 +76,22 @@ This repository contains the source code for a web application, organized with a
 - **step 1** : Clone the Repository
 - **step 2** : Navigate to the directory cd your-repository
 - **step 3** : open new terminal
-- **step 4** : install the dependency`npm install`
-- **step 5** : run the Project`npm start`
+- **step 4** : install the dependency
+
+```
+npm install
+```
+
+- **step 5** : run the Project
+
+```
+npm start
+```
+
+### This will run your project on **http://localhost:3000**
+
+## Build for Production:
+
+```
+npm run build
+```
