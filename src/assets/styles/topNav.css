@@ -1,0 +1,24 @@
+* {
+  color: white;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 40px;
+}
+.top-nav-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin: 0px 20px;
+}
+a {
+  text-decoration: none;
+}
