@@ -70,3 +70,11 @@ This repository contains the source code for a web application, organized with a
   - `App.js` and `index.js`: Entry points for the application.
 - **`.gitignore`**: Specifies files and directories to be ignored by Git.
 - **`package.json`**: Configuration file for Node.js projects.
+
+## How to Run This Project
+
+- **step 1** : Clone the Repository
+- **step 2** : Navigate to the directory cd your-repository
+- **step 3** : open new terminal
+- **step 4** : install the dependency`npm install`
+- **step 5** : run the Project`npm start`
